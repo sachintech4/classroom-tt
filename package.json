@@ -1,0 +1,19 @@
+{
+  "name": "classroom-tt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachintech4/classroom-tt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachintech4/classroom-tt/issues"
+  },
+  "homepage": "https://github.com/sachintech4/classroom-tt#readme"
+}
