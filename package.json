@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/sachintech4/classroom-tt/issues"
   },
-  "homepage": "https://github.com/sachintech4/classroom-tt#readme"
+  "homepage": "https://github.com/sachintech4/classroom-tt#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.0"
+  }
 }
